@@ -6,6 +6,7 @@ body {
 }
 :root {
     --primary-color: rgb(68, 0, 255);
+    --offwhite: #f3f4f6;
 }
 hr {
     margin: 3rem 0rem;
@@ -80,3 +81,16 @@ hr {
 .hero .hero-span {
     color: var(--primary-color);
 }
+.section{
+    padding:2rem;
+    
+    
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: #f3f4f6;
+}
+
+
