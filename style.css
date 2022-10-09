@@ -93,4 +93,19 @@ hr {
     background-color: #f3f4f6;
 }
 
+.footer{
+    background-color: var(--primary-color);
+   border-bottom-left-radius: 1rem;
+   padding: 2rem 1rem;
+   text-align: center;
+}
+.footer .footer-header{
+   color:white;
+}
+.footer .link{
+    color:white;
+}
 
+.footer ul{
+    padding-inline-start: 0px;
+}
