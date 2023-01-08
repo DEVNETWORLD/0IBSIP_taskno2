@@ -5,11 +5,11 @@ body {
      sans-serif;
 }
 :root {
-    --primary-color: rgb(68, 0, 255);
+    --primary-color: rgb(0, 68, 255);
     --offwhite: #f3f4f6;
 }
 hr {
-    margin: 3rem 0rem;
+    margin: 1rem 0rem;
 }
 
 .container{
@@ -19,33 +19,43 @@ hr {
 .container-center{
     max-width: 600px;
     margin:auto;
+    text-align: center;
+    padding-bottom: 2rem;
 
 }
 .link {
+    
     text-decoration: none;
     padding: 0.5rem  1rem;
-}
-.primary-link{
+} 
+
+.primary-link {
     background-color: var(--primary-color);
     border: 1px solid var;
     border-radius: 0.5rem;
     color:white;
-    
+    margin-right: 0.5rem;
+
 }  
+
 .secondary-link{
     background-color: none;
     border: 1px solid rgb(234, 0, 255);
     border-radius: 0.5rem;
     color:rgb(234, 0, 255) ;
-    
-    
-}  
+    margin-right: 0.5rem;
+  
+}
+
 .list-non-bullet {
     list-style-type: none;
 }
 .list-inline{
     display: inline;
     padding: 0rem 0.5rem;
+}
+.list-reversed{
+    font-weight: bolder;
 }
 .navigation{
     background-color: var(--primary-color) ;
@@ -67,30 +77,33 @@ hr {
     font-weight: bold;
 }
 .hero{
-    padding: 2rem;
+    padding: 5rem ;
+ 
 }
+
 .hero .hero-img {
     max-width: 400px;
     display: block;
     margin:auto;
 }
 .hero .hero-heading {
-    padding-top: 1rem;
+    padding-top: 1rem ;
+    text-align: center;
     color: gray;
 }
 .hero .hero-span {
     color: var(--primary-color);
 }
 .section{
-    padding:2rem;
-    
-    
+    padding:2rem;    
 }
 .section h1{
     text-align: center;
 }
 .ow{
     background-color: #f3f4f6;
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 .footer{
@@ -101,6 +114,8 @@ hr {
 }
 .footer .footer-header{
    color:white;
+   font-size: large;
+   font-weight: bold;
 }
 .footer .link{
     color:white;
@@ -108,4 +123,16 @@ hr {
 
 .footer ul{
     padding-inline-start: 0px;
+}
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.margin{
+    margin:3rem 0rem;
 }

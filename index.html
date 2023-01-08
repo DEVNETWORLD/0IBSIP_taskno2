@@ -1,123 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COMPONENT LIBRARY</title> 
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home | DEVNRTWORLD</title>
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>WELCOME TO DEVENDRA SINGH'S COMPONENT LIBRARY</h1>
+  <nav class="navigation">
+    <div class="navbrand">DEVNET</div>
   
-  <p> I am attending neogcamp and i want to make a library that will make all my project look good and consistent</p>
-  <hr>
-  <h2>@typography</h2>
-  <h1>THIS IS BIGGEST TEXT</h1>
-  <h2>THIS IS THE SECOND BIGGEST</h2>
-
-  
-  <p>This is a normal text.It is a free flowing which at last will form a paragraph.</p>
-  <p>This paragraph has <strong>bold</strong> text.</p>
-  <small>this is smallest texts.</small>
-  <hr>
-  <h2>@container</h2>
-
-  <h3>fluid container</h3>
-  <div class="container">This is fluid container and it will go till end of the page</div>
-
-  <h3>center container</h3>
-  <div class="container container-center">This is a center container and it will go till the width of the page</div>
-<hr>
-
-<h2>@links</h2>
-<a class="link primary-link" href="/">Primary Link</a> 
-<a class="link secondary-link" href="/">Secondary Link</a>
-<hr>
-
-<h2>@lists</h2>
-
-<h3>Unordered list</h3>
-<p>This list will have no discs</p>
-
-<ul class="list-non-bullet">
-  <li>item 1</li>
-  <li>item 2</li>
-  <li>item 3</li>
-
-</ul>
-
-<h3>Inline Unordered list</h3>
-
-<ul class="list-non-bullet">
-  <li class="list-inline">Inline item 1</li>
-  <li class="list-inline">Inline item 2</li>
-  <li class="list-inline">Inline item 3</li>
-
-</ul>
-
-
-<h3>Reversed Ordered list</h3>
-
-<ol reversed>
-  <li>milk</li>
-  <li>eggs</li>
-  <li>cheese</li>
-
-</ol>
-<hr>
-
-<h2>@nav</h2>
-
-<nav class="navigation">
-  <div class="navbrand">mybrandname</div>
-
-  <ul class="list-non-bullet nav-pills">
-  <li class="list-inline"><a class="link link-active" href="/">home</a></li>
-  <li class="list-inline"><a class="link" href="/">products</a></li>
-  <li class="list-inline"><a class="link" href="/">about us</a></li>
-  </ul>
-</nav>
-
-<hr>
-
-<h2>@header</h2>
+    <ul class="list-non-bullet nav-pills">
+    <li class="list-inline"><a class="link link-active" href="/">home</a></li>
+    <li class="list-inline"><a class="link" href="/projects.html">projects</a></li>
+    <li class="list-inline"><a class="link" href="/blogs.html">blogs</a></li>
+    </ul>
+  </nav>
 
 <header class="hero">
   <img class="hero-img " src="images/js3.svg" />
- <h1 class="hero-heading">This is DEV SINGH the <span class="hero-span">Web Developer</span></h1>
-</header>
-<hr/>
-
-<h2>@section</h2>
-
-<section class="section">
-<div class="container container-center">
-<h1>white section</h1>
-<p>HyperText Markup Language (HTML) is the code that you use to structure your web content and give it meaning and purpose. For example, is my content a set of paragraphs or a list of bullet points? Do I have images inserted on my page? Do I have a data table? Without overwhelming you, this article will provide enough information to make you familiar with HTML.</p>
-</div>
-</section>
-
+<h1 class="container container-center" class="hero-heading">DEV SINGH the <span class="hero-span">Web Developer</span></h1>
+</header> 
 
 <section class="section ow">
-  <h1>off white section</h1>
   <div class="container container-center">
-  <p>HyperText Markup Language (HTML) is the code that you use to structure your web content and give it meaning and purpose. For example, is my content a set of paragraphs or a list of bullet points? Do I have images inserted on my page? Do I have a data table? Without overwhelming you, this article will provide enough information to make you familiar with HTML.</p>
-</div>
-</section>
-<hr />
+  <h1>technologies</h1>
+  <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
+  </div>
+  </section>
 
-<h2>@footer</h2>
-<footer class="footer">
-<div class="footer-header">some small heading inside footer</div>
-<ul class="footer-list">
-  <li class="list-inline"><a class="link" href="/">socialone</a></li>
-  <li class="list-inline"><a class="link" href="/">socialtwo</a></li>
-  <li class="list-inline"><a class="link" href="/">socialthree</a></li>
-</ul>
-</footer> 
+  <section class="section">
+    <div class="container container-center">
+    <h1>projects</h1>
+    <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+    <a class="link primary-link" href="/projects.html">Explore Projects</a>
+  </div>
+  </section>
+   
+  <section class="section ow">
+    <div class="container container-center">
+    <h1>blogs</h1>
+    <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+    <div><a class="link secondary-link" href="/blogs.html">Read Blogs</a></div>
+  </div>
+  </section>
+   
+
+  <footer class="footer">
+    <div class="footer-header">social media presence</div>
+    <ul class="footer-list">
+      <li class="list-inline"><a class="link" href="https://github.com/DEVNETWORLD">Github</a></li>
+      <li class="list-inline"><a class="link" href="/">twitter</a></li>
+      <li class="list-inline"><a class="link" href="/">linkedin</a></li>
+    </ul>
+    </footer> 
 
 
-  
 </body>
 </html>
